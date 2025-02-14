@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Details</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/Rent.css">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="overlay"></div>
+        <a href="index.html">
+            <h1>Vehicle Rental Website</h1>
+        </a>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li>
+                    <a href="login.html" class="navbar-link">Login</a>
+                </li>
+                <li>
+                    <a href="register.html" class="navbar-link">Register</a>
+                </li>
+                <li>
+                    <a href="index.html" class="navbar-link">Vehicles</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="navbar-link">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <section class="section vehicle-details" id="vehicle-details">
+                <div class="container">
+                    <div class="title-wrapper">
+                        <h2 class="h1 vehicle-title" id="vehicle-title">Vehicle Title</h2>
+                    </div>
+                    <figure class="vehicle-banner">
+                        <img id="vehicle-image" src="" alt="Vehicle Image" class="vehicle-image">
+                    </figure>
+                    <ul class="vehicle-details-list">
+                        <li id="vehicle-year">Year of Manufacture: </li>
+                        <li id="vehicle-people">Total No of Seats: </li>
+                        <li id="vehicle-fuel">Fuel Type: </li>
+                        <li id="vehicle-mileage">Average Mileage: </li>
+                        <li id="vehicle-transmission">Transmission: </li>
+                        <li id="vehicle-price">Price of the Vechile: </li>
+                    </ul>
+                    <button class="btn" id="confirm-rent">Confirm Rent</button>
+                </div>
+            </section>
+        </article>
+    </main>
+    <script src="scripts/Rent.js"></script>
+</body>
+</html>
